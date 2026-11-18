@@ -1,0 +1,2677 @@
+DataStore data_obs (data_obs)
+  Contains 45 entries
+  Observables: 
+    1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 45 bins with a total weight of 1.18768e+06
+  Observables:     1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 1
+FVAL  = -172730.011210074648
+Edm   = 8.36066868926158037e-06
+Nfcn  = 202
+Ntot_bkg_PFDijetrun3	  = 1.18768e+06	 +/-  1087.62
+p1_PFDijetrun3	  = 6.64181	 +/-  0.149735
+p2_PFDijetrun3	  = 8.563	 +/-  0.0634058
+p3_PFDijetrun3	  = 1.47323	 +/-  0.017159
+p4_PFDijetrun3	  = 0.148258	 +/-  0.00478429
+
+  RooFitResult: minimized FCN value: -172730, estimated distance to minimum: 8.56734e-06
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=1 HESSE=1 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Ntot_bkg_PFDijetrun3    1.1877e+06    1.1877e+06 +/-  1.09e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    6.6418e+00 +/-  1.55e-01  <none>
+        p2_PFDijetrun3    1.0000e+00    8.5630e+00 +/-  6.59e-02  <none>
+        p3_PFDijetrun3    1.0000e+00    1.4732e+00 +/-  1.71e-02  <none>
+        p4_PFDijetrun3    1.0000e+00    1.4826e-01 +/-  4.86e-03  <none>
+
+
+  RooFitResult: minimized FCN value: -172730, estimated distance to minimum: 8.56734e-06
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=1 HESSE=1 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    1.1877e+06 +/-  1.09e+03
+        p1_PFDijetrun3    6.6418e+00 +/-  1.55e-01
+        p2_PFDijetrun3    8.5630e+00 +/-  6.59e-02
+        p3_PFDijetrun3    1.4732e+00 +/-  1.71e-02
+        p4_PFDijetrun3    1.4826e-01 +/-  4.86e-03
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |  1.183e+06           0           0           0           0 
+   1 |          0     0.02398   -0.007783    0.000262   0.0004009 
+   2 |          0   -0.007783    0.004346   0.0004365  -0.0001144 
+   3 |          0    0.000262   0.0004365   0.0002929   5.714e-05 
+   4 |          0   0.0004009  -0.0001144   5.714e-05   2.361e-05 
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1           0           0           0           0 
+   1 |          0           1     -0.7625     0.09886      0.5328 
+   2 |          0     -0.7625           1      0.3869     -0.3572 
+   3 |          0     0.09886      0.3869           1      0.6871 
+   4 |          0      0.5328     -0.3572      0.6871           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+WARNING: skipping MINOS because fit/covariance is not reliable.
+MIGRAD return: 1
+HESSE return: 1
+Fit status: 1
+Covariance quality: 2
+EDM: 8.56734179219974e-06
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_2b_lm
+chi2 second
+output/bkg_landing//diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[5.117517430869599e-08, 4.6865707594806766e-11, 6.641810997885431, 0.1548412631592386, 8.56299966720805, 0.06592228446378659, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+8.56299966720805
+DataStore data_obs (data_obs)
+  Contains 45 entries
+  Observables: 
+    1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 45 bins with a total weight of 1.18768e+06
+  Observables:     1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -4275475.22721065208
+Edm   = 6.61520651143380052e-06
+Nfcn  = 246
+Ntot_bkg_PFDijetrun3	  = 1.18768e+06	 +/-  1089.81
+p1_PFDijetrun3	  = 8.50467	 +/-  0.190532
+p2_PFDijetrun3	  = 5.90625	 +/-  0.129526
+p3_PFDijetrun3	  = 0.436194	 +/-  0.0265273
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.62705
+Minos:  Invalid upper error for parameter p1_PFDijetrun3
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.430947
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.429983
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos:  Invalid lower error for parameter p3_PFDijetrun3
+Minos: Upper error for parameter p3_PFDijetrun3  :  0.0833983
+
+  RooFitResult: minimized FCN value: -4.27548e+06, estimated distance to minimum: 8.89462e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=30 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    1.1877e+06    1.1877e+06         +/-  1.09e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    8.5047e+00         +/-  5.27e-01  <none>
+        p2_PFDijetrun3    1.0000e+00    5.9062e+00 (+4.30e-01,-4.31e-01)  <none>
+        p3_PFDijetrun3    1.0000e+00    4.3619e-01         +/-  7.01e-02  <none>
+
+
+  RooFitResult: minimized FCN value: -4.27548e+06, estimated distance to minimum: 8.89462e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=30 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    1.1877e+06 +/-  1.09e+03
+        p1_PFDijetrun3    8.5047e+00 +/-  5.27e-01
+        p2_PFDijetrun3    5.9062e+00 +/-  3.61e-01
+        p3_PFDijetrun3    4.3619e-01 +/-  7.01e-02
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |  1.188e+06      0.0594    -0.04168   -0.008104 
+   1 |     0.0594      0.2774      -0.187    -0.03583 
+   2 |   -0.04168      -0.187      0.1302     0.02526 
+   3 |  -0.008104    -0.03583     0.02526    0.004921 
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |          1   0.0001035   -0.000106   -0.000106 
+   1 |  0.0001035           1     -0.9836     -0.9697 
+   2 |  -0.000106     -0.9836           1      0.9977 
+   3 |  -0.000106     -0.9697      0.9977           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 30
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 30
+Covariance quality: 3
+EDM: 8.894615716806438e-06
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_2b_lm
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[7.048257124684819e-07, 6.467442837419436e-10, 8.504670418982903, 0.5266869871149152, 5.906247495602319, 0.4304649803280276, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+5.906247495602319
+DataStore data_obs (data_obs)
+  Contains 45 entries
+  Observables: 
+    1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 45 bins with a total weight of 1.18768e+06
+  Observables:     1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -1164053.1019253917
+Edm   = 1.23953538447930019e-07
+Nfcn  = 153
+Ntot_bkg_PFDijetrun3	  = 1.18768e+06	 +/-  1089.81
+p1_PFDijetrun3	  = 11.7373	 +/-  0.127558
+p2_PFDijetrun3	  = 3.65687	 +/-  0.0241057
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.131633
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.131849
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.0249085
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.0248838
+
+  RooFitResult: minimized FCN value: -1.16405e+06, estimated distance to minimum: 1.34794e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p3_PFDijetrun3    0.0000e+00
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    1.1877e+06    1.1877e+06         +/-  1.09e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    1.1737e+01 (+1.32e-01,-1.32e-01)  <none>
+        p2_PFDijetrun3    1.0000e+00    3.6569e+00 (+2.49e-02,-2.49e-02)  <none>
+
+
+  RooFitResult: minimized FCN value: -1.16405e+06, estimated distance to minimum: 1.34794e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    1.1877e+06 +/-  1.09e+03
+        p1_PFDijetrun3    1.1737e+01 +/-  1.32e-01
+        p2_PFDijetrun3    3.6569e+00 +/-  2.49e-02
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |  1.188e+06           0           0 
+   1 |          0     0.01739    -0.00322 
+   2 |          0    -0.00322   0.0006211 
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |          1           0           0 
+   1 |          0           1     -0.9799 
+   2 |          0     -0.9799           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 1.3479386892843494e-07
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_2b_lm
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[1.764261821623772e-05, 1.618860843198993e-08, 11.737296065287532, 0.13174064794272805, 3.6568713952379563, 0.024896150102352146, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+3.6568713952379563
+DataStore data_obs (data_obs)
+  Contains 45 entries
+  Observables: 
+    1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 45 bins with a total weight of 1.18768e+06
+  Observables:     1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -1103815.32301786914
+Edm   = 1.9605734421089453e-06
+Nfcn  = 356
+Ntot_bkg_PFDijetrun3	  = 1.18768e+06	 +/-  1089.81
+p1_PFDijetrun3	  = 3.13565	 +/-  0.0545338
+p2_PFDijetrun3	  = 17.6494	 +/-  0.567222
+p3_PFDijetrun3	  = -2.15636	 +/-  1.2471
+p4_PFDijetrun3	  = 5.83962	 +/-  2.05222
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.347468
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.344311
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -5.2943
+Minos:  Invalid upper error for parameter p2_PFDijetrun3
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p3_PFDijetrun3  :  -12.9885
+Minos:  Invalid upper error for parameter p3_PFDijetrun3
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #4 : p4_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #4 : p4_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p4_PFDijetrun3  :  -12.7228
+Minos: Upper error for parameter p4_PFDijetrun3  :  13.0851
+
+  RooFitResult: minimized FCN value: -1.10382e+06, estimated distance to minimum: 3.28788e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=40 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    1.1877e+06    1.1877e+06         +/-  1.09e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    3.1357e+00 (+3.44e-01,-3.47e-01)  <none>
+        p2_PFDijetrun3    1.0000e+00    1.7649e+01         +/-  2.24e+00  <none>
+        p3_PFDijetrun3    1.0000e+00   -2.1564e+00         +/-  5.35e+00  <none>
+        p4_PFDijetrun3    1.0000e+00    5.8396e+00 (+1.31e+01,-1.27e+01)  <none>
+
+
+  RooFitResult: minimized FCN value: -1.10382e+06, estimated distance to minimum: 3.28788e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=40 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    1.1877e+06 +/-  1.09e+03
+        p1_PFDijetrun3    3.1357e+00 +/-  1.53e-01
+        p2_PFDijetrun3    1.7649e+01 +/-  2.24e+00
+        p3_PFDijetrun3   -2.1564e+00 +/-  5.35e+00
+        p4_PFDijetrun3    5.8396e+00 +/-  5.70e+00
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |  1.188e+06     0.01457     -0.2264      0.5428      -0.529 
+   1 |    0.01457     0.02337     -0.3336      0.7224      -0.625 
+   2 |    -0.2264     -0.3336       5.007      -11.54       10.78 
+   3 |     0.5428      0.7224      -11.54       28.65      -29.13 
+   4 |     -0.529      -0.625       10.78      -29.13       32.49 
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1   8.747e-05  -9.283e-05   9.307e-05  -8.515e-05 
+   1 |  8.747e-05           1     -0.9753      0.8829     -0.7172 
+   2 | -9.283e-05     -0.9753           1     -0.9636      0.8451 
+   3 |  9.307e-05      0.8829     -0.9636           1     -0.9549 
+   4 | -8.515e-05     -0.7172      0.8451     -0.9549           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 40
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 40
+Covariance quality: 3
+EDM: 3.2878824123812246e-06
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_2b_lm
+chi2 second
+output/bkg_landing//diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[9.683605841706489e-05, 8.885615646815935e-08, 3.1356538010777264, 0.34588923007395617, 17.64944272450932, 2.2375964140260187, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+17.64944272450932
+DataStore data_obs (data_obs)
+  Contains 45 entries
+  Observables: 
+    1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 45 bins with a total weight of 1.18768e+06
+  Observables:     1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -1143627.40713039041
+Edm   = 1.03694265806713385e-06
+Nfcn  = 242
+Ntot_bkg_PFDijetrun3	  = 1.18768e+06	 +/-  1089.81
+p1_PFDijetrun3	  = 3.2842	 +/-  0.051863
+p2_PFDijetrun3	  = 15.2983	 +/-  0.560705
+p3_PFDijetrun3	  = 3.62819	 +/-  0.769921
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.114039
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.114571
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -1.28837
+Minos: Upper error for parameter p2_PFDijetrun3  :  1.28046
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p3_PFDijetrun3  :  -1.69601
+Minos: Upper error for parameter p3_PFDijetrun3  :  1.70995
+
+  RooFitResult: minimized FCN value: -1.14363e+06, estimated distance to minimum: 1.40555e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    1.1877e+06    1.1877e+06         +/-  1.09e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    3.2842e+00 (+1.15e-01,-1.14e-01)  <none>
+        p2_PFDijetrun3    1.0000e+00    1.5298e+01 (+1.28e+00,-1.29e+00)  <none>
+        p3_PFDijetrun3    1.0000e+00    3.6282e+00 (+1.71e+00,-1.70e+00)  <none>
+
+
+  RooFitResult: minimized FCN value: -1.14363e+06, estimated distance to minimum: 1.40555e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    1.1877e+06 +/-  1.09e+03
+        p1_PFDijetrun3    3.2842e+00 +/-  1.06e-01
+        p2_PFDijetrun3    1.5298e+01 +/-  1.19e+00
+        p3_PFDijetrun3    3.6282e+00 +/-  1.58e+00
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |  1.188e+06   -0.001404      0.0137    -0.01458 
+   1 |  -0.001404     0.01126     -0.1252      0.1604 
+   2 |     0.0137     -0.1252       1.417      -1.855 
+   3 |   -0.01458      0.1604      -1.855       2.498 
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |          1  -1.214e-05   1.056e-05  -8.464e-06 
+   1 | -1.214e-05           1     -0.9911      0.9567 
+   2 |  1.056e-05     -0.9911           1     -0.9862 
+   3 | -8.464e-06      0.9567     -0.9862           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 1.4055452278197282e-06
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_2b_lm
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[5.733756765918694e-05, 5.2612827712758674e-08, 3.2842021058049804, 0.11430528109025326, 15.298280123585913, 1.284416172600591, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+15.298280123585913
+DataStore data_obs (data_obs)
+  Contains 45 entries
+  Observables: 
+    1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 45 bins with a total weight of 1.18768e+06
+  Observables:     1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -1236257.8819558043
+Edm   = 1.95102261378156386e-08
+Nfcn  = 139
+Ntot_bkg_PFDijetrun3	  = 1.18768e+06	 +/-  1089.81
+p1_PFDijetrun3	  = 3.0488	 +/-  0.0292578
+p2_PFDijetrun3	  = 18.0087	 +/-  0.186533
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.0307351
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.0306802
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.195556
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.195996
+
+  RooFitResult: minimized FCN value: -1.23626e+06, estimated distance to minimum: 1.95474e-08
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p3_PFDijetrun3    0.0000e+00
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    1.1877e+06    1.1877e+06         +/-  1.09e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    3.0488e+00 (+3.07e-02,-3.07e-02)  <none>
+        p2_PFDijetrun3    1.0000e+00    1.8009e+01 (+1.96e-01,-1.96e-01)  <none>
+
+
+  RooFitResult: minimized FCN value: -1.23626e+06, estimated distance to minimum: 1.95474e-08
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    1.1877e+06 +/-  1.09e+03
+        p1_PFDijetrun3    3.0488e+00 +/-  3.06e-02
+        p2_PFDijetrun3    1.8009e+01 +/-  1.95e-01
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |  1.188e+06           0           0 
+   1 |          0   0.0009359   -0.005888 
+   2 |          0   -0.005888     0.03804 
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |          1           0           0 
+   1 |          0           1     -0.9867 
+   2 |          0     -0.9867           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 1.9547391472775246e-08
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_2b_lm
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[0.0001241569947292584, 1.1392580296518465e-07, 3.0487991131833314, 0.030707654928578854, 18.00871769984551, 0.19577641659986617, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+18.00871769984551
+DataStore data_obs (data_obs)
+  Contains 45 entries
+  Observables: 
+    1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 45 bins with a total weight of 1.18768e+06
+  Observables:     1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 1
+FVAL  = -188336.025374235585
+Edm   = 6.16421004713672479e-07
+Nfcn  = 210
+Ntot_bkg_PFDijetrun3	  = 1.18768e+06	 +/-  1087.6
+p1_PFDijetrun3	  = 6.21936	 +/-  0.0950119
+p2_PFDijetrun3	  = 7.06228	 +/-  0.063275
+p3_PFDijetrun3	  = 1.44999	 +/-  0.0172393
+p4_PFDijetrun3	  = 0.169835	 +/-  0.00454477
+
+  RooFitResult: minimized FCN value: -188336, estimated distance to minimum: 6.544e-07
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=1 HESSE=1 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Ntot_bkg_PFDijetrun3    1.1877e+06    1.1877e+06 +/-  1.09e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    6.2194e+00 +/-  9.95e-02  <none>
+        p2_PFDijetrun3    1.0000e+00    7.0623e+00 +/-  6.67e-02  <none>
+        p3_PFDijetrun3    1.0000e+00    1.4500e+00 +/-  1.72e-02  <none>
+        p4_PFDijetrun3    1.0000e+00    1.6983e-01 +/-  4.62e-03  <none>
+
+
+  RooFitResult: minimized FCN value: -188336, estimated distance to minimum: 6.544e-07
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=1 HESSE=1 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    1.1877e+06 +/-  1.09e+03
+        p1_PFDijetrun3    6.2194e+00 +/-  9.95e-02
+        p2_PFDijetrun3    7.0623e+00 +/-  6.67e-02
+        p3_PFDijetrun3    1.4500e+00 +/-  1.72e-02
+        p4_PFDijetrun3    1.6983e-01 +/-  4.62e-03
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |  1.183e+06           0           0           0           0 
+   1 |          0    0.009906   -0.005113   0.0002623   0.0002103 
+   2 |          0   -0.005113    0.004454   0.0003818  -9.396e-05 
+   3 |          0   0.0002623   0.0003818   0.0002944   5.784e-05 
+   4 |          0   0.0002103  -9.396e-05   5.784e-05   2.131e-05 
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1           0           0           0           0 
+   1 |          0           1     -0.7698      0.1536      0.4578 
+   2 |          0     -0.7698           1      0.3334      -0.305 
+   3 |          0      0.1536      0.3334           1      0.7303 
+   4 |          0      0.4578      -0.305      0.7303           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+WARNING: skipping MINOS because fit/covariance is not reliable.
+MIGRAD return: 1
+HESSE return: 1
+Fit status: 1
+Covariance quality: 2
+EDM: 6.543995245913384e-07
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_2b_lm
+chi2 second
+output/bkg_landing//diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[2.65112035542395e-05, 2.4278250800695098e-08, 6.219364039995524, 0.09952811872835227, 7.062281031992467, 0.06673980936116178, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+7.062281031992467
+DataStore data_obs (data_obs)
+  Contains 45 entries
+  Observables: 
+    1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 45 bins with a total weight of 1.18768e+06
+  Observables:     1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -3976470.51056937873
+Edm   = 3.49265219820132476e-07
+Nfcn  = 260
+Ntot_bkg_PFDijetrun3	  = 1.18768e+06	 +/-  1089.81
+p1_PFDijetrun3	  = 8.31494	 +/-  0.120818
+p2_PFDijetrun3	  = 3.3739	 +/-  0.120403
+p3_PFDijetrun3	  = 0.20157	 +/-  0.0223454
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos:  Invalid lower error for parameter p1_PFDijetrun3
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.613782
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.615374
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.614709
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p3_PFDijetrun3  :  -0.100366
+Minos:  Invalid upper error for parameter p3_PFDijetrun3
+
+  RooFitResult: minimized FCN value: -3.97647e+06, estimated distance to minimum: 3.98642e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=30 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    1.1877e+06    1.1877e+06         +/-  1.09e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    8.3149e+00         +/-  1.66e+00  <none>
+        p2_PFDijetrun3    1.0000e+00    3.3739e+00 (+6.15e-01,-6.15e-01)  <none>
+        p3_PFDijetrun3    1.0000e+00    2.0157e-01         +/-  2.71e-01  <none>
+
+
+  RooFitResult: minimized FCN value: -3.97647e+06, estimated distance to minimum: 3.98642e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=30 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    1.1877e+06 +/-  1.09e+03
+        p1_PFDijetrun3    8.3149e+00 +/-  1.66e+00
+        p2_PFDijetrun3    3.3739e+00 +/-  1.67e+00
+        p3_PFDijetrun3    2.0157e-01 +/-  2.71e-01
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |  1.188e+06           0           0           0 
+   1 |          0       2.757      -2.766     -0.4486 
+   2 |          0      -2.766       2.778      0.4512 
+   3 |          0     -0.4486      0.4512      0.0733 
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |          1           0           0           0 
+   1 |          0           1     -0.9992      -0.998 
+   2 |          0     -0.9992           1      0.9997 
+   3 |          0      -0.998      0.9997           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 30
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 30
+Covariance quality: 3
+EDM: 3.9864219031846205e-05
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_2b_lm
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[0.00506087336397855, 4.643827333475732e-06, 8.314944839942786, 1.6604239908447618, 3.3739049400518097, 0.6150413884118698, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+3.3739049400518097
+DataStore data_obs (data_obs)
+  Contains 45 entries
+  Observables: 
+    1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 45 bins with a total weight of 1.18768e+06
+  Observables:     1)  th1x = 44.5  L(0 - 45) B(45)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -1014091.47708581761
+Edm   = 1.15980243726929385e-07
+Nfcn  = 137
+Ntot_bkg_PFDijetrun3	  = 1.18768e+06	 +/-  1089.81
+p1_PFDijetrun3	  = 9.53081	 +/-  0.0981506
+p2_PFDijetrun3	  = 2.14028	 +/-  0.0383058
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.1054
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.105744
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.0412601
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.0411444
+
+  RooFitResult: minimized FCN value: -1.01409e+06, estimated distance to minimum: 1.24552e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p3_PFDijetrun3    0.0000e+00
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    1.1877e+06    1.1877e+06         +/-  1.09e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    9.5308e+00 (+1.06e-01,-1.05e-01)  <none>
+        p2_PFDijetrun3    1.0000e+00    2.1403e+00 (+4.11e-02,-4.13e-02)  <none>
+
+
+  RooFitResult: minimized FCN value: -1.01409e+06, estimated distance to minimum: 1.24552e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    1.1877e+06 +/-  1.09e+03
+        p1_PFDijetrun3    9.5308e+00 +/-  1.05e-01
+        p2_PFDijetrun3    2.1403e+00 +/-  4.11e-02
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |  1.188e+06           0           0 
+   1 |          0     0.01107    -0.00429 
+   2 |          0    -0.00429    0.001687 
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |          1           0           0 
+   1 |          0           1     -0.9926 
+   2 |          0     -0.9926           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 1.2455239554545268e-07
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_2b_lm
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[0.06387153843694372, 5.860824929989454e-05, 9.530812497045721, 0.1055721451897598, 2.1402776445217127, 0.04120224395850654, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+2.1402776445217127
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 2.39653e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 1
+FVAL  = -171909.111031152308
+Edm   = 1.45197124849965659e-10
+Nfcn  = 279
+Ntot_bkg_PFDijetrun3	  = 2.39653e+06	 +/-  1544.98
+p1_PFDijetrun3	  = 4.63355	 +/-  0.117456
+p2_PFDijetrun3	  = 11.7048	 +/-  0.0499653
+p3_PFDijetrun3	  = 2.66443	 +/-  0.0134813
+p4_PFDijetrun3	  = 0.365993	 +/-  0.00384252
+
+  RooFitResult: minimized FCN value: -171909, estimated distance to minimum: 3.92732e-08
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=1 HESSE=1 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Ntot_bkg_PFDijetrun3    2.3965e+06    2.3965e+06 +/-  1.55e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    4.6336e+00 +/-  1.67e-01  <none>
+        p2_PFDijetrun3    1.0000e+00    1.1705e+01 +/-  1.03e-01  <none>
+        p3_PFDijetrun3    1.0000e+00    2.6644e+00 +/-  4.75e-02  <none>
+        p4_PFDijetrun3    1.0000e+00    3.6599e-01 +/-  1.02e-02  <none>
+
+
+  RooFitResult: minimized FCN value: -171909, estimated distance to minimum: 3.92732e-08
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=1 HESSE=1 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    2.3965e+06 +/-  1.55e+03
+        p1_PFDijetrun3    4.6336e+00 +/-  1.67e-01
+        p2_PFDijetrun3    1.1705e+01 +/-  1.03e-01
+        p3_PFDijetrun3    2.6644e+00 +/-  4.75e-02
+        p4_PFDijetrun3    3.6599e-01 +/-  1.02e-02
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |  2.396e+06           0           0           0           0 
+   1 |          0     0.02798    -0.00991   0.0006265   0.0006573 
+   2 |          0    -0.00991     0.01065    0.003582   0.0004369 
+   3 |          0   0.0006265    0.003582    0.002255   0.0004463 
+   4 |          0   0.0006573   0.0004369   0.0004463   0.0001045 
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1           0           0           0           0 
+   1 |          0           1     -0.5741     0.07887      0.3843 
+   2 |          0     -0.5741           1       0.731      0.4141 
+   3 |          0     0.07887       0.731           1      0.9193 
+   4 |          0      0.3843      0.4141      0.9193           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+WARNING: skipping MINOS because fit/covariance is not reliable.
+MIGRAD return: 1
+HESSE return: 1
+Fit status: 1
+Covariance quality: 3
+EDM: 3.927318697714319e-08
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_m
+chi2 second
+output/bkg_landing//diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[3.691692748941886e-09, 2.38464535352057e-12, 4.633551386436096, 0.16728461209903905, 11.704806829293204, 0.10318985555735166, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+11.704806829293204
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 2.39653e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -8642074.80099506676
+Edm   = 2.92615086488347791e-06
+Nfcn  = 251
+Ntot_bkg_PFDijetrun3	  = 2.39653e+06	 +/-  1548.07
+p1_PFDijetrun3	  = 9.11548	 +/-  0.144051
+p2_PFDijetrun3	  = 5.25542	 +/-  0.0992454
+p3_PFDijetrun3	  = 0.12833	 +/-  0.0206908
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.523532
+Minos:  Invalid upper error for parameter p1_PFDijetrun3
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.365451
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.364193
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p3_PFDijetrun3  :  -0.0714688
+Minos: Upper error for parameter p3_PFDijetrun3  :  0.0712657
+
+  RooFitResult: minimized FCN value: -8.64207e+06, estimated distance to minimum: 3.39015e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=20 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    2.3965e+06    2.3965e+06         +/-  1.55e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    9.1155e+00         +/-  4.22e-01  <none>
+        p2_PFDijetrun3    1.0000e+00    5.2554e+00 (+3.64e-01,-3.65e-01)  <none>
+        p3_PFDijetrun3    1.0000e+00    1.2833e-01 (+7.13e-02,-7.15e-02)  <none>
+
+
+  RooFitResult: minimized FCN value: -8.64207e+06, estimated distance to minimum: 3.39015e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=20 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    2.3965e+06 +/-  1.55e+03
+        p1_PFDijetrun3    9.1155e+00 +/-  4.22e-01
+        p2_PFDijetrun3    5.2554e+00 +/-  2.93e-01
+        p3_PFDijetrun3    1.2833e-01 +/-  5.75e-02
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |  2.397e+06    -0.03414     0.02469    0.004872 
+   1 |   -0.03414       0.178     -0.1217    -0.02352 
+   2 |    0.02469     -0.1217     0.08593     0.01682 
+   3 |   0.004872    -0.02352     0.01682    0.003307 
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |          1  -5.227e-05    5.44e-05   5.473e-05 
+   1 | -5.227e-05           1     -0.9836     -0.9694 
+   2 |   5.44e-05     -0.9836           1      0.9977 
+   3 |  5.473e-05     -0.9694      0.9977           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 20
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 20
+Covariance quality: 3
+EDM: 3.390146020328092e-06
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_m
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[2.0820006937551557e-06, 1.344897153112255e-09, 9.115481539870279, 0.4219100306298434, 5.255424578486137, 0.36482182036558297, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+5.255424578486137
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 2.39653e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -2556945.480247017
+Edm   = 1.71624375761945933e-07
+Nfcn  = 146
+Ntot_bkg_PFDijetrun3	  = 2.39653e+06	 +/-  1548.07
+p1_PFDijetrun3	  = 10.0423	 +/-  0.100504
+p2_PFDijetrun3	  = 4.60008	 +/-  0.0194025
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.104388
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.10451
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.0201722
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.020156
+
+  RooFitResult: minimized FCN value: -2.55695e+06, estimated distance to minimum: 1.79672e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p3_PFDijetrun3    0.0000e+00
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    2.3965e+06    2.3965e+06         +/-  1.55e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    1.0042e+01 (+1.05e-01,-1.04e-01)  <none>
+        p2_PFDijetrun3    1.0000e+00    4.6001e+00 (+2.02e-02,-2.02e-02)  <none>
+
+
+  RooFitResult: minimized FCN value: -2.55695e+06, estimated distance to minimum: 1.79672e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    2.3965e+06 +/-  1.55e+03
+        p1_PFDijetrun3    1.0042e+01 +/-  1.04e-01
+        p2_PFDijetrun3    4.6001e+00 +/-  2.01e-02
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |  2.397e+06   -0.001686   0.0003317 
+   1 |  -0.001686     0.01087    -0.00206 
+   2 |  0.0003317    -0.00206   0.0004053 
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |          1  -1.045e-05   1.064e-05 
+   1 | -1.045e-05           1     -0.9814 
+   2 |  1.064e-05     -0.9814           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 1.7967248809429678e-07
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_m
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[5.283322417093522e-06, 3.4128363680243835e-09, 10.042294725509537, 0.1044489204347178, 4.600082223065965, 0.020164087055068454, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+4.600082223065965
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 2.39653e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Invalid minimum - status = 3
+FVAL  = -2.4315e+06
+Edm   = 0.000232616
+Nfcn  = 283
+
+  RooFitResult: minimized FCN value: -2.4315e+06, estimated distance to minimum: 0.00490701
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=-1 HESSE=3 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Ntot_bkg_PFDijetrun3    2.3965e+06    2.3965e+06 +/-  1.55e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    4.7368e+00 +/-  1.29e-01  <none>
+        p2_PFDijetrun3    1.0000e+00    7.3135e+00 +/-  1.86e+00  <none>
+        p3_PFDijetrun3    1.0000e+00    1.3036e+01 +/-  4.41e+00  <none>
+        p4_PFDijetrun3    1.0000e+00   -4.9236e+00 +/-  4.68e+00  <none>
+
+
+  RooFitResult: minimized FCN value: -2.4315e+06, estimated distance to minimum: 0.00490701
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=-1 HESSE=3 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    2.3965e+06 +/-  1.55e+03
+        p1_PFDijetrun3    4.7368e+00 +/-  1.29e-01
+        p2_PFDijetrun3    7.3135e+00 +/-  1.86e+00
+        p3_PFDijetrun3    1.3036e+01 +/-  4.41e+00
+        p4_PFDijetrun3   -4.9236e+00 +/-  4.68e+00
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |  2.397e+06           0           0           0           0 
+   1 |          0     0.01654     -0.2329      0.5006     -0.4327 
+   2 |          0     -0.2329       3.447      -7.887       7.362 
+   3 |          0      0.5006      -7.887       19.43      -19.72 
+   4 |          0     -0.4327       7.362      -19.72       21.91 
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1           0           0           0           0 
+   1 |          0           1     -0.9752       0.883     -0.7187 
+   2 |          0     -0.9752           1     -0.9639      0.8471 
+   3 |          0       0.883     -0.9639           1     -0.9558 
+   4 |          0     -0.7187      0.8471     -0.9558           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+WARNING: skipping MINOS because fit/covariance is not reliable.
+MIGRAD return: -1
+HESSE return: 3
+Fit status: 3
+Covariance quality: 3
+EDM: 0.004907013865741473
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_m
+chi2 second
+output/bkg_landing//diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[3.1502948561788935e-06, 2.0349759166427394e-09, 4.7368238420115185, 0.12861400559834024, 7.313518409476926, 1.8564937917198165, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+7.313518409476926
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 2.39653e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -2514723.40733225271
+Edm   = 1.64165071995230088e-06
+Nfcn  = 242
+Ntot_bkg_PFDijetrun3	  = 2.39653e+06	 +/-  1548.07
+p1_PFDijetrun3	  = 4.60958	 +/-  0.0400029
+p2_PFDijetrun3	  = 9.30282	 +/-  0.422775
+p3_PFDijetrun3	  = 8.16797	 +/-  0.579224
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.0984437
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.0985669
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -1.09052
+Minos: Upper error for parameter p2_PFDijetrun3  :  1.08815
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p3_PFDijetrun3  :  -1.42737
+Minos: Upper error for parameter p3_PFDijetrun3  :  1.43235
+
+  RooFitResult: minimized FCN value: -2.51472e+06, estimated distance to minimum: 3.24208e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    2.3965e+06    2.3965e+06         +/-  1.55e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    4.6096e+00 (+9.86e-02,-9.84e-02)  <none>
+        p2_PFDijetrun3    1.0000e+00    9.3028e+00 (+1.09e+00,-1.09e+00)  <none>
+        p3_PFDijetrun3    1.0000e+00    8.1680e+00 (+1.43e+00,-1.43e+00)  <none>
+
+
+  RooFitResult: minimized FCN value: -2.51472e+06, estimated distance to minimum: 3.24208e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    2.3965e+06 +/-  1.55e+03
+        p1_PFDijetrun3    4.6096e+00 +/-  8.98e-02
+        p2_PFDijetrun3    9.3028e+00 +/-  9.91e-01
+        p3_PFDijetrun3    8.1680e+00 +/-  1.30e+00
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |  2.397e+06           0           0           0 
+   1 |          0    0.008064    -0.08825      0.1122 
+   2 |          0    -0.08825      0.9821      -1.274 
+   3 |          0      0.1122      -1.274       1.697 
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |          1           0           0           0 
+   1 |          0           1     -0.9916      0.9591 
+   2 |          0     -0.9916           1      -0.987 
+   3 |          0      0.9591      -0.987           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 3.2420753921058193e-06
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_m
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[4.925467930736455e-06, 3.181663628702993e-09, 4.609582549778884, 0.09850527960280134, 9.302822302961138, 1.0893352018405937, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+9.302822302961138
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 2.39653e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -2707087.90514243767
+Edm   = 7.16658931003612384e-08
+Nfcn  = 141
+Ntot_bkg_PFDijetrun3	  = 2.39653e+06	 +/-  1548.07
+p1_PFDijetrun3	  = 4.06132	 +/-  0.0236583
+p2_PFDijetrun3	  = 15.4894	 +/-  0.148039
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.0250894
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.0250675
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.15683
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.157022
+
+  RooFitResult: minimized FCN value: -2.70709e+06, estimated distance to minimum: 7.70782e-08
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p3_PFDijetrun3    0.0000e+00
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    2.3965e+06    2.3965e+06         +/-  1.55e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    4.0613e+00 (+2.51e-02,-2.51e-02)  <none>
+        p2_PFDijetrun3    1.0000e+00    1.5489e+01 (+1.57e-01,-1.57e-01)  <none>
+
+
+  RooFitResult: minimized FCN value: -2.70709e+06, estimated distance to minimum: 7.70782e-08
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    2.3965e+06 +/-  1.55e+03
+        p1_PFDijetrun3    4.0613e+00 +/-  2.51e-02
+        p2_PFDijetrun3    1.5489e+01 +/-  1.57e-01
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |  2.397e+06           0           0 
+   1 |          0   0.0006307     -0.0039 
+   2 |          0     -0.0039      0.0247 
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |          1           0           0 
+   1 |          0           1     -0.9881 
+   2 |          0     -0.9881           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 7.70782463200828e-08
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_m
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[2.9404009356093806e-05, 1.8993968491574808e-08, 4.061322849406749, 0.025078478116471795, 15.489386048713431, 0.15692602632913746, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+15.489386048713431
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 2.39653e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 1
+FVAL  = -185687.516781788319
+Edm   = 6.26087624291537809e-08
+Nfcn  = 250
+Ntot_bkg_PFDijetrun3	  = 2.39653e+06	 +/-  1544.96
+p1_PFDijetrun3	  = 4.65182	 +/-  0.0746745
+p2_PFDijetrun3	  = 10.1103	 +/-  0.0498663
+p3_PFDijetrun3	  = 2.46369	 +/-  0.0135505
+p4_PFDijetrun3	  = 0.356047	 +/-  0.00365012
+
+  RooFitResult: minimized FCN value: -185688, estimated distance to minimum: 2.21744e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=1 HESSE=1 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Ntot_bkg_PFDijetrun3    2.3965e+06    2.3965e+06 +/-  1.55e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    4.6518e+00 +/-  4.63e-01  <none>
+        p2_PFDijetrun3    1.0000e+00    1.0110e+01 +/-  6.20e-01  <none>
+        p3_PFDijetrun3    1.0000e+00    2.4637e+00 +/-  2.11e-01  <none>
+        p4_PFDijetrun3    1.0000e+00    3.5605e-01 +/-  3.39e-02  <none>
+
+
+  RooFitResult: minimized FCN value: -185688, estimated distance to minimum: 2.21744e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=1 HESSE=1 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    2.3965e+06 +/-  1.55e+03
+        p1_PFDijetrun3    4.6518e+00 +/-  4.63e-01
+        p2_PFDijetrun3    1.0110e+01 +/-  6.20e-01
+        p3_PFDijetrun3    2.4637e+00 +/-  2.11e-01
+        p4_PFDijetrun3    3.5605e-01 +/-  3.39e-02
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |  2.396e+06           0           0           0           0 
+   1 |          0       0.214       -0.25    -0.05517   -0.003805 
+   2 |          0       -0.25       0.384      0.1169     0.01426 
+   3 |          0    -0.05517      0.1169     0.04437    0.006665 
+   4 |          0   -0.003805     0.01426    0.006665    0.001146 
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1           0           0           0           0 
+   1 |          0           1      -0.872     -0.5661     -0.2429 
+   2 |          0      -0.872           1      0.8954      0.6795 
+   3 |          0     -0.5661      0.8954           1      0.9345 
+   4 |          0     -0.2429      0.6795      0.9345           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+WARNING: skipping MINOS because fit/covariance is not reliable.
+MIGRAD return: 1
+HESSE return: 1
+Fit status: 1
+Covariance quality: 3
+EDM: 2.2174382960766482e-07
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_m
+chi2 second
+output/bkg_landing//diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[6.319591502972194e-07, 4.0821478340897175e-10, 4.651823311382436, 0.46259419853250683, 10.110328310159113, 0.6196669561655229, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+10.110328310159113
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 2.39653e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -8049898.05844203755
+Edm   = 5.33547711357545669e-06
+Nfcn  = 246
+Ntot_bkg_PFDijetrun3	  = 2.39653e+06	 +/-  1548.07
+p1_PFDijetrun3	  = 8.9232	 +/-  0.0911708
+p2_PFDijetrun3	  = 2.52879	 +/-  0.0917353
+p3_PFDijetrun3	  = -0.125343	 +/-  0.0175204
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.513211
+Minos:  Invalid upper error for parameter p1_PFDijetrun3
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.51904
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.520285
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p3_PFDijetrun3  :  -0.0854573
+Minos: Upper error for parameter p3_PFDijetrun3  :  0.0856969
+
+  RooFitResult: minimized FCN value: -8.0499e+06, estimated distance to minimum: 1.04601e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=20 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    2.3965e+06    2.3965e+06         +/-  1.55e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    8.9232e+00         +/-  3.33e-01  <none>
+        p2_PFDijetrun3    1.0000e+00    2.5288e+00 (+5.20e-01,-5.19e-01)  <none>
+        p3_PFDijetrun3    1.0000e+00   -1.2534e-01 (+8.57e-02,-8.55e-02)  <none>
+
+
+  RooFitResult: minimized FCN value: -8.0499e+06, estimated distance to minimum: 1.04601e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=20 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    2.3965e+06 +/-  1.55e+03
+        p1_PFDijetrun3    8.9232e+00 +/-  3.33e-01
+        p2_PFDijetrun3    2.5288e+00 +/-  3.38e-01
+        p3_PFDijetrun3   -1.2534e-01 +/-  5.60e-02
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |  2.397e+06           0           0           0 
+   1 |          0       0.111     -0.1111    -0.01805 
+   2 |          0     -0.1111       0.114     0.01881 
+   3 |          0    -0.01805     0.01881    0.003135 
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |          1           0           0           0 
+   1 |          0           1     -0.9877     -0.9677 
+   2 |          0     -0.9877           1      0.9951 
+   3 |          0     -0.9677      0.9951           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 20
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 20
+Covariance quality: 3
+EDM: 1.0460117313130732e-05
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_m
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[0.02897407881543542, 1.871619852311031e-05, 8.923203387407755, 0.3331902922029718, 2.5287869835834487, 0.5196624366347509, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+2.5287869835834487
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 2.39653e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -2251156.46627697721
+Edm   = 1.83352838644806672e-07
+Nfcn  = 145
+Ntot_bkg_PFDijetrun3	  = 2.39653e+06	 +/-  1548.07
+p1_PFDijetrun3	  = 8.1832	 +/-  0.0772138
+p2_PFDijetrun3	  = 3.28808	 +/-  0.0305559
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.0841798
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.0842508
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.033337
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.0333162
+
+  RooFitResult: minimized FCN value: -2.25116e+06, estimated distance to minimum: 2.08434e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p3_PFDijetrun3    0.0000e+00
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    2.3965e+06    2.3965e+06         +/-  1.55e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    8.1832e+00 (+8.43e-02,-8.42e-02)  <none>
+        p2_PFDijetrun3    1.0000e+00    3.2881e+00 (+3.33e-02,-3.33e-02)  <none>
+
+
+  RooFitResult: minimized FCN value: -2.25116e+06, estimated distance to minimum: 2.08434e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    2.3965e+06 +/-  1.55e+03
+        p1_PFDijetrun3    8.1832e+00 +/-  8.39e-02
+        p2_PFDijetrun3    3.2881e+00 +/-  3.32e-02
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |  2.397e+06           0           0 
+   1 |          0    0.007037   -0.002766 
+   2 |          0   -0.002766    0.001102 
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |          1           0           0 
+   1 |          0           1     -0.9932 
+   2 |          0     -0.9932           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 2.0843356163571588e-07
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_m
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[0.006152521065188481, 3.97431230268235e-06, 8.183195013409271, 0.08421533191259917, 3.2880774408036224, 0.033326597321064605, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+3.2880774408036224
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 7.71134e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 1
+FVAL  = -591868.523802250624
+Edm   = 1.79621227184815343e-08
+Nfcn  = 268
+Ntot_bkg_PFDijetrun3	  = 7.71134e+06	 +/-  2771.39
+p1_PFDijetrun3	  = 7.7616	 +/-  0.063497
+p2_PFDijetrun3	  = 5.92504	 +/-  0.0273694
+p3_PFDijetrun3	  = 0.225113	 +/-  0.00741868
+p4_PFDijetrun3	  = -0.0154192	 +/-  0.0021155
+
+  RooFitResult: minimized FCN value: -591869, estimated distance to minimum: 1.81899e-08
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=1 HESSE=1 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Ntot_bkg_PFDijetrun3    7.7113e+06    7.7113e+06 +/-  2.77e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    7.7616e+00 +/-  6.54e-02  <none>
+        p2_PFDijetrun3    1.0000e+00    5.9250e+00 +/-  2.83e-02  <none>
+        p3_PFDijetrun3    1.0000e+00    2.2511e-01 +/-  7.40e-03  <none>
+        p4_PFDijetrun3    1.0000e+00   -1.5419e-02 +/-  2.14e-03  <none>
+
+
+  RooFitResult: minimized FCN value: -591869, estimated distance to minimum: 1.81899e-08
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=1 HESSE=1 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    7.7113e+06 +/-  2.77e+03
+        p1_PFDijetrun3    7.7616e+00 +/-  6.54e-02
+        p2_PFDijetrun3    5.9250e+00 +/-  2.83e-02
+        p3_PFDijetrun3    2.2511e-01 +/-  7.40e-03
+        p4_PFDijetrun3   -1.5419e-02 +/-  2.14e-03
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |  7.681e+06           0           0           0           0 
+   1 |          0    0.004272   -0.001408   4.819e-05   7.373e-05 
+   2 |          0   -0.001408    0.000801   7.998e-05  -2.205e-05 
+   3 |          0   4.819e-05   7.998e-05   5.472e-05   1.085e-05 
+   4 |          0   7.373e-05  -2.205e-05   1.085e-05   4.599e-06 
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1           0           0           0           0 
+   1 |          0           1     -0.7613     0.09966       0.526 
+   2 |          0     -0.7613           1      0.3821     -0.3633 
+   3 |          0     0.09966      0.3821           1      0.6841 
+   4 |          0       0.526     -0.3633      0.6841           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+WARNING: skipping MINOS because fit/covariance is not reliable.
+MIGRAD return: 1
+HESSE return: 1
+Fit status: 1
+Covariance quality: 2
+EDM: 1.8189932095298298e-08
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_l
+chi2 second
+output/bkg_landing//diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[2.4061550261288715e-06, 8.647827745844544e-10, 7.761603713085298, 0.0653609643377768, 5.925035208851509, 0.028301480987911097, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+5.925035208851509
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 7.71134e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -27586313.6645083576
+Edm   = 3.71984827451436662e-06
+Nfcn  = 265
+Ntot_bkg_PFDijetrun3	  = 7.71135e+06	 +/-  2776.93
+p1_PFDijetrun3	  = 7.57882	 +/-  0.0779971
+p2_PFDijetrun3	  = 6.19253	 +/-  0.0543102
+p3_PFDijetrun3	  = 0.331137	 +/-  0.0113373
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.272697
+Minos:  Invalid upper error for parameter p1_PFDijetrun3
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.189013
+Minos:  Invalid upper error for parameter p2_PFDijetrun3
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos:  Invalid lower error for parameter p3_PFDijetrun3
+Minos: Upper error for parameter p3_PFDijetrun3  :  0.0376482
+
+  RooFitResult: minimized FCN value: -2.75863e+07, estimated distance to minimum: 3.3659e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=-1 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Ntot_bkg_PFDijetrun3    7.7113e+06    7.7113e+06 +/-  2.78e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    7.5788e+00 +/-  2.56e-01  <none>
+        p2_PFDijetrun3    1.0000e+00    6.1925e+00 +/-  1.80e-01  <none>
+        p3_PFDijetrun3    1.0000e+00    3.3114e-01 +/-  3.53e-02  <none>
+
+
+  RooFitResult: minimized FCN value: -2.75863e+07, estimated distance to minimum: 3.3659e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=-1 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    7.7113e+06 +/-  2.78e+03
+        p1_PFDijetrun3    7.5788e+00 +/-  2.56e-01
+        p2_PFDijetrun3    6.1925e+00 +/-  1.80e-01
+        p3_PFDijetrun3    3.3114e-01 +/-  3.53e-02
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |  7.711e+06    -0.07179     0.04968    0.009651 
+   1 |   -0.07179     0.06579    -0.04553   -0.008845 
+   2 |    0.04968    -0.04553     0.03232    0.006337 
+   3 |   0.009651   -0.008845    0.006337    0.001247 
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |          1  -0.0001008   9.952e-05   9.842e-05 
+   1 | -0.0001008           1     -0.9874     -0.9765 
+   2 |  9.952e-05     -0.9874           1      0.9982 
+   3 |  9.842e-05     -0.9765      0.9982           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: -1
+MIGRAD return: 0
+HESSE return: 0
+Fit status: -1
+Covariance quality: 3
+EDM: 3.3658970559732784e-05
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_l
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[1.8536474356600237e-06, 6.675172878650049e-10, 7.578816620059928, 0.2564956123027153, 6.192530308659795, 0.17978737108663226, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+6.192530308659795
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 7.71134e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -8097759.80115389824
+Edm   = 3.43323473346925721e-06
+Nfcn  = 152
+Ntot_bkg_PFDijetrun3	  = 7.71135e+06	 +/-  2776.93
+p1_PFDijetrun3	  = 9.94044	 +/-  0.0541271
+p2_PFDijetrun3	  = 4.50725	 +/-  0.0105216
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.0561931
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.0561557
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.0109149
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.0109243
+
+  RooFitResult: minimized FCN value: -8.09776e+06, estimated distance to minimum: 3.47264e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p3_PFDijetrun3    0.0000e+00
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    7.7113e+06    7.7113e+06         +/-  2.78e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    9.9404e+00 (+5.62e-02,-5.62e-02)  <none>
+        p2_PFDijetrun3    1.0000e+00    4.5072e+00 (+1.09e-02,-1.09e-02)  <none>
+
+
+  RooFitResult: minimized FCN value: -8.09776e+06, estimated distance to minimum: 3.47264e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    7.7113e+06 +/-  2.78e+03
+        p1_PFDijetrun3    9.9404e+00 +/-  5.59e-02
+        p2_PFDijetrun3    4.5072e+00 +/-  1.09e-02
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |  7.711e+06           0           0 
+   1 |          0    0.003128  -0.0005963 
+   2 |          0  -0.0005963   0.0001182 
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |          1           0           0 
+   1 |          0           1     -0.9808 
+   2 |          0     -0.9808           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 3.4726425951795033e-06
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_l
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[2.016900036923005e-05, 7.263077648792084e-09, 9.940439571069302, 0.05617441693751869, 4.507249812001016, 0.01091960416493452, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+4.507249812001016
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 7.71134e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -7694995.98834636807
+Edm   = 2.40408677923353663e-05
+Nfcn  = 411
+Ntot_bkg_PFDijetrun3	  = 7.71134e+06	 +/-  2776.93
+p1_PFDijetrun3	  = 3.7795	 +/-  0.0233406
+p2_PFDijetrun3	  = 19.4991	 +/-  0.231775
+p3_PFDijetrun3	  = -13.5978	 +/-  0.500876
+p4_PFDijetrun3	  = 17.9436	 +/-  0.841526
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.162889
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.166336
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -2.50651
+Minos: Upper error for parameter p2_PFDijetrun3  :  2.45517
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p3_PFDijetrun3  :  -5.82142
+Minos:  Invalid upper error for parameter p3_PFDijetrun3
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #4 : p4_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #4 : p4_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p4_PFDijetrun3  :  -5.86306
+Minos: Upper error for parameter p4_PFDijetrun3  :  5.76538
+
+  RooFitResult: minimized FCN value: -7.695e+06, estimated distance to minimum: 4.38117e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=20 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    7.7113e+06    7.7113e+06         +/-  2.78e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    3.7795e+00 (+1.66e-01,-1.63e-01)  <none>
+        p2_PFDijetrun3    1.0000e+00    1.9499e+01 (+2.46e+00,-2.51e+00)  <none>
+        p3_PFDijetrun3    1.0000e+00   -1.3598e+01         +/-  2.22e+00  <none>
+        p4_PFDijetrun3    1.0000e+00    1.7944e+01 (+5.77e+00,-5.86e+00)  <none>
+
+
+  RooFitResult: minimized FCN value: -7.695e+06, estimated distance to minimum: 4.38117e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=20 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    7.7113e+06 +/-  2.78e+03
+        p1_PFDijetrun3    3.7795e+00 +/-  6.65e-02
+        p2_PFDijetrun3    1.9499e+01 +/-  9.45e-01
+        p3_PFDijetrun3   -1.3598e+01 +/-  2.22e+00
+        p4_PFDijetrun3    1.7944e+01 +/-  2.35e+00
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |  7.711e+06           0           0           0           0 
+   1 |          0    0.004424    -0.06117      0.1284     -0.1077 
+   2 |          0    -0.06117      0.8935      -2.012       1.843 
+   3 |          0      0.1284      -2.012       4.925      -4.963 
+   4 |          0     -0.1077       1.843      -4.963       5.537 
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1           0           0           0           0 
+   1 |          0           1     -0.9729      0.8701      -0.688 
+   2 |          0     -0.9729           1     -0.9593      0.8286 
+   3 |          0      0.8701     -0.9593           1     -0.9505 
+   4 |          0      -0.688      0.8286     -0.9505           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 20
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 20
+Covariance quality: 3
+EDM: 4.381170445412805e-05
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_l
+chi2 second
+output/bkg_landing//diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[0.00023299976820904264, 8.390534809730768e-08, 3.7794969396775557, 0.16461238683101004, 19.499124728496355, 2.4808419622916715, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+19.499124728496355
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 7.71134e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -7962433.54404695332
+Edm   = 1.65683473449281051e-06
+Nfcn  = 248
+Ntot_bkg_PFDijetrun3	  = 7.71134e+06	 +/-  2776.93
+p1_PFDijetrun3	  = 4.26634	 +/-  0.0218375
+p2_PFDijetrun3	  = 11.9882	 +/-  0.228989
+p3_PFDijetrun3	  = 4.48835	 +/-  0.309557
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.0519947
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.0516941
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.566394
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.569312
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p3_PFDijetrun3  :  -0.738215
+Minos: Upper error for parameter p3_PFDijetrun3  :  0.735204
+
+  RooFitResult: minimized FCN value: -7.96243e+06, estimated distance to minimum: 8.40487e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    7.7113e+06    7.7113e+06         +/-  2.78e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    4.2663e+00 (+5.17e-02,-5.20e-02)  <none>
+        p2_PFDijetrun3    1.0000e+00    1.1988e+01 (+5.69e-01,-5.66e-01)  <none>
+        p3_PFDijetrun3    1.0000e+00    4.4883e+00 (+7.35e-01,-7.38e-01)  <none>
+
+
+  RooFitResult: minimized FCN value: -7.96243e+06, estimated distance to minimum: 8.40487e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    7.7113e+06 +/-  2.78e+03
+        p1_PFDijetrun3    4.2663e+00 +/-  4.67e-02
+        p2_PFDijetrun3    1.1988e+01 +/-  5.10e-01
+        p3_PFDijetrun3    4.4883e+00 +/-  6.63e-01
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |  7.711e+06           0           0           0 
+   1 |          0    0.002179     -0.0236     0.02959 
+   2 |          0     -0.0236      0.2603     -0.3336 
+   3 |          0     0.02959     -0.3336      0.4398 
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |          1           0           0           0 
+   1 |          0           1      -0.991       0.956 
+   2 |          0      -0.991           1     -0.9859 
+   3 |          0       0.956     -0.9859           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 8.40487250819637e-06
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_l
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[4.238993942289168e-05, 1.5265059932740727e-08, 4.266335527583746, 0.051844417414749905, 11.988154922841996, 0.5678529894941179, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+11.988154922841996
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 7.71134e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -8580129.19163331389
+Edm   = 1.12172635073221749e-06
+Nfcn  = 151
+Ntot_bkg_PFDijetrun3	  = 7.71134e+06	 +/-  2776.93
+p1_PFDijetrun3	  = 3.96014	 +/-  0.0128592
+p2_PFDijetrun3	  = 15.4189	 +/-  0.0800384
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.0135975
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.0136137
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.0847255
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.0846428
+
+  RooFitResult: minimized FCN value: -8.58013e+06, estimated distance to minimum: 1.17637e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p3_PFDijetrun3    0.0000e+00
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    7.7113e+06    7.7113e+06         +/-  2.78e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    3.9601e+00 (+1.36e-02,-1.36e-02)  <none>
+        p2_PFDijetrun3    1.0000e+00    1.5419e+01 (+8.46e-02,-8.47e-02)  <none>
+
+
+  RooFitResult: minimized FCN value: -8.58013e+06, estimated distance to minimum: 1.17637e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    7.7113e+06 +/-  2.78e+03
+        p1_PFDijetrun3    3.9601e+00 +/-  1.36e-02
+        p2_PFDijetrun3    1.5419e+01 +/-  8.45e-02
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |  7.711e+06   -0.003322     0.02042 
+   1 |  -0.003322   0.0001844   -0.001134 
+   2 |    0.02042   -0.001134    0.007145 
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |          1  -8.807e-05   8.699e-05 
+   1 | -8.807e-05           1     -0.9877 
+   2 |  8.699e-05     -0.9877           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 1.1763667369004224e-06
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_l
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[0.00011476245117723989, 4.1327161366697767e-08, 3.960135960726716, 0.013605617345793145, 15.418912415646345, 0.08468417769579464, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+15.418912415646345
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 7.71134e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 1
+FVAL  = -641222.940805271268
+Edm   = 1.27193753850161958e-08
+Nfcn  = 265
+Ntot_bkg_PFDijetrun3	  = 7.71134e+06	 +/-  2771.35
+p1_PFDijetrun3	  = 7.78916	 +/-  0.0405384
+p2_PFDijetrun3	  = 3.25916	 +/-  0.0273254
+p3_PFDijetrun3	  = -0.109505	 +/-  0.00745543
+p4_PFDijetrun3	  = -0.0318658	 +/-  0.00200981
+
+  RooFitResult: minimized FCN value: -641223, estimated distance to minimum: 1.29379e-08
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=1 HESSE=1 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Ntot_bkg_PFDijetrun3    7.7113e+06    7.7113e+06 +/-  2.77e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    7.7892e+00 +/-  4.19e-02  <none>
+        p2_PFDijetrun3    1.0000e+00    3.2592e+00 +/-  2.84e-02  <none>
+        p3_PFDijetrun3    1.0000e+00   -1.0950e-01 +/-  7.42e-03  <none>
+        p4_PFDijetrun3    1.0000e+00   -3.1866e-02 +/-  2.03e-03  <none>
+
+
+  RooFitResult: minimized FCN value: -641223, estimated distance to minimum: 1.29379e-08
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=1 HESSE=1 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    7.7113e+06 +/-  2.77e+03
+        p1_PFDijetrun3    7.7892e+00 +/-  4.19e-02
+        p2_PFDijetrun3    3.2592e+00 +/-  2.84e-02
+        p3_PFDijetrun3   -1.0950e-01 +/-  7.42e-03
+        p4_PFDijetrun3   -3.1866e-02 +/-  2.03e-03
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |  7.681e+06    -0.02495     0.03004    0.008967    0.001243 
+   1 |   -0.02495    0.001754  -0.0009087   4.753e-05   3.765e-05 
+   2 |    0.03004  -0.0009087   0.0008067   7.077e-05  -1.734e-05 
+   3 |   0.008967   4.753e-05   7.077e-05   5.501e-05   1.093e-05 
+   4 |   0.001243   3.765e-05  -1.734e-05   1.093e-05   4.104e-06 
+
+
+5x5 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1  -0.0002149   0.0003817   0.0004362   0.0002214 
+   1 | -0.0002149           1     -0.7639       0.153      0.4437 
+   2 |  0.0003817     -0.7639           1      0.3359     -0.3014 
+   3 |  0.0004362       0.153      0.3359           1      0.7273 
+   4 |  0.0002214      0.4437     -0.3014      0.7273           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+WARNING: skipping MINOS because fit/covariance is not reliable.
+MIGRAD return: 1
+HESSE return: 1
+Fit status: 1
+Covariance quality: 2
+EDM: 1.2937874483942066e-08
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_l
+chi2 second
+output/bkg_landing//diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[0.013162653242466321, 4.730775058206477e-06, 7.789161837725877, 0.04188611239245908, 3.259163327278132, 0.028401810506881595, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+3.259163327278132
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 7.71134e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -25685867.5492788851
+Edm   = 1.78710068904331226e-06
+Nfcn  = 266
+Ntot_bkg_PFDijetrun3	  = 7.71135e+06	 +/-  2776.93
+p1_PFDijetrun3	  = 7.4161	 +/-  0.0496558
+p2_PFDijetrun3	  = 3.92837	 +/-  0.05033
+p3_PFDijetrun3	  = 0.120683	 +/-  0.00959663
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.265921
+Minos:  Invalid upper error for parameter p1_PFDijetrun3
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.269266
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.27152
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #3 : p3_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p3_PFDijetrun3  :  -0.0445466
+Minos: Upper error for parameter p3_PFDijetrun3  :  0.0449333
+
+  RooFitResult: minimized FCN value: -2.56859e+07, estimated distance to minimum: 1.22152e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=20 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    7.7113e+06    7.7113e+06         +/-  2.78e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    7.4161e+00         +/-  1.94e-01  <none>
+        p2_PFDijetrun3    1.0000e+00    3.9284e+00 (+2.72e-01,-2.69e-01)  <none>
+        p3_PFDijetrun3    1.0000e+00    1.2068e-01 (+4.49e-02,-4.45e-02)  <none>
+
+
+  RooFitResult: minimized FCN value: -2.56859e+07, estimated distance to minimum: 1.22152e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=20 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    7.7113e+06 +/-  2.78e+03
+        p1_PFDijetrun3    7.4161e+00 +/-  1.94e-01
+        p2_PFDijetrun3    3.9284e+00 +/-  1.98e-01
+        p3_PFDijetrun3    1.2068e-01 +/-  3.29e-02
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |  7.711e+06           0           0           0 
+   1 |          0     0.03775    -0.03809   -0.006221 
+   2 |          0    -0.03809     0.03924    0.006494 
+   3 |          0   -0.006221    0.006494    0.001083 
+
+
+4x4 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |
+---------------------------------------------------------
+   0 |          1           0           0           0 
+   1 |          0           1     -0.9896     -0.9729 
+   2 |          0     -0.9896           1      0.9959 
+   3 |          0     -0.9729      0.9959           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 20
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 20
+Covariance quality: 3
+EDM: 1.2215209186947201e-05
+WARNING: fit or covariance requires investigation.
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_l
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[0.0051344913033444725, 1.8489791995199743e-06, 7.416104054106016, 0.19428790901495727, 3.928368653850251, 0.2703929764461708, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+3.928368653850251
+DataStore data_obs (data_obs)
+  Contains 44 entries
+  Observables: 
+    1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Binned Dataset data_obs (data_obs)
+  Contains 44 bins with a total weight of 7.71134e+06
+  Observables:     1)  th1x = 43.5  L(0 - 44) B(44)  "th1x"
+Minuit2Minimizer: Minimize with max-calls 100000 convergence for edm < 0.01 strategy 2
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -7118861.83276470006
+Edm   = 6.0746129008543649e-07
+Nfcn  = 145
+Ntot_bkg_PFDijetrun3	  = 7.71134e+06	 +/-  2776.93
+p1_PFDijetrun3	  = 8.12103	 +/-  0.0417328
+p2_PFDijetrun3	  = 3.20029	 +/-  0.0165811
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #1 : p1_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p1_PFDijetrun3  :  -0.045318
+Minos: Upper error for parameter p1_PFDijetrun3  :  0.0454185
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS LOWER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+******************************************************************************************************
+Minuit2Minimizer::GetMinosError - Run MINOS UPPER error for parameter #2 : p2_PFDijetrun3 using max-calls 100000, tolerance 0.01
+Minos: Lower error for parameter p2_PFDijetrun3  :  -0.018046
+Minos: Upper error for parameter p2_PFDijetrun3  :  0.0180049
+
+  RooFitResult: minimized FCN value: -7.11886e+06, estimated distance to minimum: 6.3483e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+        p3_PFDijetrun3    0.0000e+00
+        p4_PFDijetrun3    0.0000e+00
+                 sqrts    1.3600e+04
+
+    Floating Parameter  InitialValue    FinalValue (+HiError,-LoError)    GblCorr.
+  --------------------  ------------  ----------------------------------  --------
+  Ntot_bkg_PFDijetrun3    7.7113e+06    7.7113e+06         +/-  2.78e+03  <none>
+        p1_PFDijetrun3    1.0000e+00    8.1210e+00 (+4.54e-02,-4.53e-02)  <none>
+        p2_PFDijetrun3    1.0000e+00    3.2003e+00 (+1.80e-02,-1.80e-02)  <none>
+
+
+  RooFitResult: minimized FCN value: -7.11886e+06, estimated distance to minimum: 6.3483e-07
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 MINOS=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+  Ntot_bkg_PFDijetrun3    7.7113e+06 +/-  2.78e+03
+        p1_PFDijetrun3    8.1210e+00 +/-  4.52e-02
+        p2_PFDijetrun3    3.2003e+00 +/-  1.80e-02
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |  7.711e+06   -0.003529    0.001392 
+   1 |  -0.003529    0.002045  -0.0008069 
+   2 |   0.001392  -0.0008069   0.0003228 
+
+
+3x3 matrix is as follows
+
+     |      0    |      1    |      2    |
+--------------------------------------------
+   0 |          1   -2.81e-05    2.79e-05 
+   1 |  -2.81e-05           1      -0.993 
+   2 |   2.79e-05      -0.993           1 
+
+[]
+[]
+[]
+[]
+sideband
+Full
+sideband2
+MINOS return: 0
+MIGRAD return: 0
+HESSE return: 0
+Fit status: 0
+Covariance quality: 3
+EDM: 6.348296341404795e-07
+making directory
+g_data
+Name: Graph_from_data_obs_rebin Title: mjj_1gev_1e1_l
+chi2 second
+output/bkg_landing/diff_xsec.root
+printing list Parameters 5 and 6 are p2 
+[0.022566577803110655, 8.126490605821681e-06, 8.121032956290204, 0.04536823815244091, 3.2002865471320296, 0.018025456422560655, -1.0, -1.0, -1.0, -1.0]
+ w.var('p2_%s'%box).getVal()
+3.2002865471320296

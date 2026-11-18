@@ -1,0 +1,162 @@
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 0.00406372  -0.00406372/+0.0504283  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 1.52256e-09  -1.52256e-09/+0.0359886  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in b-only fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 4.98132e-09  -4.98132e-09/+0.0139624  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+
+ --- FitDiagnostics ---
+Best fit r: 1.54695e-06  -1.54695e-06/+0.246751  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+
+ --- FitDiagnostics ---
+Best fit r: 0.192129  -0.192129/+0.318664  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in b-only fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 0.415154  -0.415154/+0.268659  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+
+ --- FitDiagnostics ---
+Best fit r: 1.09059e-09  -1.09059e-09/+0.644025  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 2.19766e-10  -2.19766e-10/+0.916155  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in b-only fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 9.2986e-09  -9.2986e-09/+0.602907  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 0.5  -0.5/+1.14334e-08  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 3.55921e-09  -3.55921e-09/+0.5  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in b-only fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 2.21748e-09  -2.21748e-09/+0.5  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 20  -13.4589/+5.77328e-09  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in s+b fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 20  -20/+4.32519e-08  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in b-only fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 10.1668  -10.1668/+9.83321  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+Error in <Minuit2>: Minuit2Minimizer::GetMinosError Failed - invalid function minimum
+Error in <ROOT::Math::Fitter::CalculateMinosErrors>: Minos error calculation failed for all the selected parameters
+
+ --- FitDiagnostics ---
+Best fit r: 20  -20/+1.82279e-08  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+
+ --- FitDiagnostics ---
+Best fit r: 20  -20/+4.45634e-09  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)
+ <<< Combine >>> 
+ <<< v10.0.0 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+[WARNING]: Unable to determine uncertainties on all fit parameters in b-only fit. Have a look at https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part3/nonstandard/#fit-parameter-uncertainties for more information.
+
+ --- FitDiagnostics ---
+Best fit r: 20  -20/+1.19194e-05  (68% CL)
+Done in 0.00 min (cpu), 0.01 min (real)

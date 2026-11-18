@@ -72,101 +72,17 @@ analysisClass::analysisClass(string * inputList, string * cutFile, string * tree
     // std::string L1Path = "data/Summer22Run3_V1_MC/Summer22Run3_V1_MC_L1FastJet_AK4PFPuppi.txt";
     // std::string L2Path = "data/Summer22Run3_V1_MC/Summer22Run3_V1_MC_L2Relative_AK4PFPuppi.txt";
     // std::string L3Path = "data/Summer22Run3_V1_MC/Summer22Run3_V1_MC_L3Absolute_AK4PFPuppi.txt"; 
-    std::string L1Path = "data/run3/prompt_2024BCD/Winter24Run3_V1_MC/Winter24Run3_V1_MC_L1FastJet_AK4PFPuppi.txt";
-    std::string L2Path = "data/run3/prompt_2024BCD/Winter24Run3_V1_MC/Winter24Run3_V1_MC_L2Relative_AK4PFPuppi.txt";
-    std::string L3Path = "data/run3/prompt_2024BCD/Winter24Run3_V1_MC/Winter24Run3_V1_MC_L3Absolute_AK4PFPuppi.txt";
+    std::string L1Path = "data/Run3/Summer23BPixPrompt23_V1_MC/Summer23BPixPrompt23_V1_MC_L1FastJet_AK4PFPuppi.txt";
+    std::string L2Path = "data/Run3/Summer23BPixPrompt23_V1_MC/Summer23BPixPrompt23_V1_MC_L2Relative_AK4PFPuppi.txt";
+    std::string L3Path = "data/Run3/Summer23BPixPrompt23_V1_MC/Summer23BPixPrompt23_V1_MC_L3Absolute_AK4PFPuppi.txt";
 
-  //====JECs ResidualsV3 20231124====    
-/*   
-    std::string L1DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022CD/Summer22Run3_V1_MC_L1FastJet_AK4PFPuppi.txt";
-    std::string L2DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022CD/Summer22Run3_V1_MC_L2Relative_AK4PFPuppi.txt";
-    std::string L3DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022CD/Summer22Run3_V1_MC_L3Absolute_AK4PFPuppi.txt";
-  
-    std::string L2L3ResidualPath = "data/run3/20231124_JECs/20231124_JECs_2022CD/Summer22-22Sep2023_Run2022CD_V3_DATA_L2L3Residual_AK4PFPuppi.txt"; 
-    
-    unc = new JetCorrectionUncertainty("data/run3/20231124_JECs/20231124_JECs_2022CD/Winter22Run3_V2_MC_Uncertainty_AK4PFPuppi.txt"); 
-*/
-/*
-    std::string L1DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022E/Summer22EEVetoRun3_V1_MC_L1FastJet_AK4PFPuppi.txt";
-    std::string L2DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022E/Summer22EEVetoRun3_V1_MC_L2Relative_AK4PFPuppi.txt";
-    std::string L3DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022E/Summer22EEVetoRun3_V1_MC_L3Absolute_AK4PFPuppi.txt";
-  
-    std::string L2L3ResidualPath = "data/run3/20231124_JECs/20231124_JECs_2022E/Summer22EE-22Sep2023_Run2022E_V3_DATA_L2L3Residual_AK4PFPuppi.txt"; 
-    
-    unc = new JetCorrectionUncertainty("data/run3/20231124_JECs/20231124_JECs_2022E/Winter22Run3_V2_MC_Uncertainty_AK4PFPuppi.txt"); 
-*/
-/*
-    std::string L1DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022F/Summer22EEVetoRun3_V1_MC_L1FastJet_AK4PFPuppi.txt";
-    std::string L2DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022F/Summer22EEVetoRun3_V1_MC_L2Relative_AK4PFPuppi.txt";
-    std::string L3DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022F/Summer22EEVetoRun3_V1_MC_L3Absolute_AK4PFPuppi.txt";
-  
-    std::string L2L3ResidualPath = "data/run3/20231124_JECs/20231124_JECs_2022F/Summer22EEPrompt22_Run2022F_V3_DATA_L2L3Residual_AK4PFPuppi.txt"; 
-    
-    unc = new JetCorrectionUncertainty("data/run3/20231124_JECs/20231124_JECs_2022F/Winter22Run3_V2_MC_Uncertainty_AK4PFPuppi.txt"); 
-
-*/
-/*
-    std::string L1DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022G/Summer22EEVetoRun3_V1_MC_L1FastJet_AK4PFPuppi.txt";
-    std::string L2DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022G/Summer22EEVetoRun3_V1_MC_L2Relative_AK4PFPuppi.txt";
-    std::string L3DATAPath = "data/run3/20231124_JECs/20231124_JECs_2022G/Summer22EEVetoRun3_V1_MC_L3Absolute_AK4PFPuppi.txt";
-  
-    std::string L2L3ResidualPath = "data/run3/20231124_JECs/20231124_JECs_2022G/Summer22EEPrompt22_Run2022G_V3_DATA_L2L3Residual_AK4PFPuppi.txt"; 
-    
-    unc = new JetCorrectionUncertainty("data/run3/20231124_JECs/20231124_JECs_2022G/Winter22Run3_V2_MC_Uncertainty_AK4PFPuppi.txt"); 
-*/
-/*
-    std::string L1DATAPath = "data/run3/20231124_JECs/20231124_JECs_2023Cv123/Summer22Run3_V1_MC_L1FastJet_AK4PFPuppi.txt";
-    std::string L2DATAPath = "data/run3/20231124_JECs/20231124_JECs_2023Cv123/Summer22Run3_V1_MC_L2Relative_AK4PFPuppi.txt";
-    std::string L3DATAPath = "data/run3/20231124_JECs/20231124_JECs_2023Cv123/Summer22Run3_V1_MC_L3Absolute_AK4PFPuppi.txt";
-  
-    std::string L2L3ResidualPath = "data/run3/20231124_JECs/20231124_JECs_2023Cv123/Summer22Prompt23_Run2023Cv123_V3_DATA_L2L3Residual_AK4PFPUPPI.txt"; 
-    
-    unc = new JetCorrectionUncertainty("data/run3/20231124_JECs/20231124_JECs_2023Cv123/Winter22Run3_V2_MC_Uncertainty_AK4PFPuppi.txt"); 
-*/
-/*
-    std::string L1DATAPath = "data/run3/20231124_JECs/20231124_JECs_2023Cv4/Summer22Run3_V1_MC_L1FastJet_AK4PFPuppi.txt";
-    std::string L2DATAPath = "data/run3/20231124_JECs/20231124_JECs_2023Cv4/Summer22Run3_V1_MC_L2Relative_AK4PFPuppi.txt";
-    std::string L3DATAPath = "data/run3/20231124_JECs/20231124_JECs_2023Cv4/Summer22Run3_V1_MC_L3Absolute_AK4PFPuppi.txt";
-  
-    std::string L2L3ResidualPath = "data/run3/20231124_JECs/20231124_JECs_2023Cv4/Summer22Prompt23_Run2023Cv4_V3_DATA_L2L3Residual_AK4PFPUPPI.txt"; 
-    
-    unc = new JetCorrectionUncertainty("data/run3/20231124_JECs/20231124_JECs_2023Cv4/Winter22Run3_V2_MC_Uncertainty_AK4PFPuppi.txt"); 
-*/
-
-/*
-    std::string L1DATAPath = "data/run3/20231124_JECs/20231124_JECs_2023D/Summer22Run3_V1_MC_L1FastJet_AK4PFPuppi.txt";
-    std::string L2DATAPath = "data/run3/20231124_JECs/20231124_JECs_2023D/Summer22Run3_V1_MC_L2Relative_AK4PFPuppi.txt";
-    std::string L3DATAPath = "data/run3/20231124_JECs/20231124_JECs_2023D/Summer22Run3_V1_MC_L3Absolute_AK4PFPuppi.txt";
-  
-    std::string L2L3ResidualPath = "data/run3/20231124_JECs/20231124_JECs_2023D/Summer22Prompt23_Run2023D_V3_DATA_L2L3Residual_AK4PFPUPPI.txt"; 
-    
-    unc = new JetCorrectionUncertainty("data/run3/20231124_JECs/20231124_JECs_2023D/Winter22Run3_V2_MC_Uncertainty_AK4PFPuppi.txt"); 
-*/
-
-    std::string L1DATAPath = "data/run3/prompt_2024BCD/Winter24Run3_V1_MC/Winter24Run3_V1_MC_L1FastJet_AK4PFPuppi.txt";
-    std::string L2DATAPath = "data/run3/prompt_2024BCD/Winter24Run3_V1_MC/Winter24Run3_V1_MC_L2Relative_AK4PFPuppi.txt";
-    std::string L3DATAPath = "data/run3/prompt_2024BCD/Winter24Run3_V1_MC/Winter24Run3_V1_MC_L3Absolute_AK4PFPuppi.txt";
-  
-   
-    //std::string L2L3ResidualPath = "data/run3/prompt_2024BCD/Prompt24_V2M_mikko/Prompt24_Run2024BC_V2M_DATA_L2L3Residual_AK4PFPuppi.txt"; 
-    //std::string L2L3ResidualPath = "data/run3/prompt_2024BCD/Prompt24_V3M_mikko/Prompt24_Run2024BCD_V3M_DATA_L2L3Residual_AK4PFPuppi.txt"; 
-    //std::string L2L3ResidualPath = "data/run3/prompt_2024BCD/2024DATA_V4M_JECs/Prompt24_Run2024CS_V4M_DATA_L2L3Residual_AK4PFPuppi.txt";
-    //std::string L2L3ResidualPath = "data/run3/prompt_2024BCD/2024DATA_V4M_JECs/Prompt24_Run2024E_V4M_DATA_L2L3Residual_AK4PFPuppi.txt";
-         
-    //std::string L2L3ResidualPath = "data/run3/prompt_2024BCDEFG_V6/Prompt24_Run2024E_V6M_DATA_L2L3Residual_AK4PFPuppi.txt";
-    //std::string L2L3ResidualPath = "data/run3/prompt_2024BCDEFG_V6/Prompt24_Run2024F_V6M_DATA_L2L3Residual_AK4PFPuppi.txt";
-    // std::string L2L3ResidualPath = "data/Prompt24_V8M_DATA/Prompt24_Run2024F_nib2_V8M_DATA_L2L3Residual_AK4PFPuppi.txt";
-    std::string L2L3ResidualPath = "data/Prompt24_Run2024H_nib1_V8M_DATA_L2L3Residual_AK4PFPuppi.txt";
-    
-    //std::string L2L3ResidualPath = "data/run3/Prompt24_V7M/Prompt24_Run2024E_V7M_DATA_L2L3Residual_AK4PFPuppi.txt";
-    //std::string L2L3ResidualPath = "data/run3/Prompt24_V7M/Prompt24_Run2024F_V7M_DATA_L2L3Residual_AK4PFPuppi.txt";
-     // std::string L2L3ResidualPath = "data/run3/Prompt24_V7M/Prompt24_Run2024G_V7M_DATA_L2L3Residual_AK4PFPuppi.txt";
-    //std::string L2L3ResidualPath = "data/run3/Prompt24_V7M/Prompt24_Run2024H_V7M_DATA_L2L3Residual_AK4PFPuppi.txt";
-//    std::string L2L3ResidualPath = "data/Prompt24_V7M/Prompt24_Run2024I_V7M_DATA_L2L3Residual_AK4PFPuppi.txt";
-      
-    unc = new JetCorrectionUncertainty("data/run3/20231124_JECs/20231124_JECs_2023D/Winter22Run3_V2_MC_Uncertainty_AK4PFPuppi.txt"); 
-
-
+    std::string L1DATAPath = "data/Run3/Summer23BPixPrompt23_V1_MC/Summer23BPixPrompt23_V1_MC_L1FastJet_AK4PFPuppi.txt";
+    std::string L2DATAPath = "data/Run3/Summer23BPixPrompt23_V1_MC/Summer23BPixPrompt23_V1_MC_L2Relative_AK4PFPuppi.txt";
+    std::string L3DATAPath = "data/Run3/Summer23BPixPrompt23_V1_MC/Summer23BPixPrompt23_V1_MC_L3Absolute_AK4PFPuppi.txt";
+ 
+    std::string L2L3ResidualPath = "data/Run3/Summer23BPixPrompt23_V1_MC/Summer23BPixPrompt23_V1_MC_L2L3Residual_AK4PFPuppi.txt";
+          
+    unc = new JetCorrectionUncertainty("data/Run3/Winter24Prompt24_V1_MC/Winter24Prompt24_V1_MC_Uncertainty_AK4PFPuppi.txt"); 
     L1Par = new JetCorrectorParameters(L1Path);
     L2Par = new JetCorrectorParameters(L2Path);
     L3Par = new JetCorrectorParameters(L3Path);
@@ -176,13 +92,11 @@ analysisClass::analysisClass(string * inputList, string * cutFile, string * tree
     L3DATAPar = new JetCorrectorParameters(L3DATAPath);
     L2L3Residual = new JetCorrectorParameters(L2L3ResidualPath);
     
-
     std::vector<JetCorrectorParameters> vPar;
     vPar.push_back(*L1Par);
     vPar.push_back(*L2Par);
     vPar.push_back(*L3Par);
-
-      
+  
     //residuals are applied only to data
     std::vector<JetCorrectorParameters> vPar_data;
     vPar_data.push_back(*L1DATAPar);
@@ -190,31 +104,11 @@ analysisClass::analysisClass(string * inputList, string * cutFile, string * tree
     vPar_data.push_back(*L3DATAPar);
     vPar_data.push_back(*L2L3Residual);
     
-
    JetCorrector = new FactorizedJetCorrector(vPar); assert(JetCorrector);
    JetCorrector_data = new FactorizedJetCorrector(vPar_data); assert(JetCorrector_data);
     
   }
-/*
-  //load btag scale factors
-  bcalib = new BTagCalibration("CSVv2", "data/bTag_MC_ScalingFactors/CSVv2_ichep.csv");
 
-  //medium WP
-  breader_medium = new BTagCalibrationReader(BTagEntry::OP_MEDIUM,  // operating point
-					     "central",             // central sys type
-					     {"up", "down"});      // other sys types
-  breader_medium->load(*bcalib,                // calibration instance
-		       BTagEntry::FLAV_B,    // btag flavour
-		       "comb");
-  //tight WP
-  breader_tight = new BTagCalibrationReader(BTagEntry::OP_TIGHT,  // operating point
-					    "central",             // central sys type
-					    {"up", "down"});      // other sys types
-  breader_tight->load(*bcalib,                // calibration instance
-		      BTagEntry::FLAV_B,    // btag flavour
-		      "comb");
-  */
-  
   std::cout << "analysisClass::analysisClass(): ends " << std::endl;
 }
 
@@ -500,7 +394,7 @@ void analysisClass::Loop()
 	 TLorentzVector tempJet, tempJet_shift;
 
 	 tempJet.SetPtEtaPhiM( rescale*jetPtAK8->at(sortedJetIdx[j]) , jetEtaAK8->at(sortedJetIdx[j]) , jetPhiAK8->at(sortedJetIdx[j]) , rescale*jetMassAK8->at(sortedJetIdx[j]));
-	 tempJet_shift.SetPtEtaPhiM( (1+jecUncertainty[sortedJetIdx[j]])* rescale*jetPtAK8->at(sortedJetIdx[j]) , jetEtaAK8->at(sortedJetIdx[j]) , jetPhiAK8->at(sortedJetIdx[j]) ,  (1+jecUncertainty[sortedJetIdx[j]])* rescale*jetMassAK8->at(sortedJetIdx[j]));
+     tempJet_shift.SetPtEtaPhiM( (1+jecUncertainty[sortedJetIdx[j]])* rescale*jetPtAK8->at(sortedJetIdx[j]) , jetEtaAK8->at(sortedJetIdx[j]) , jetPhiAK8->at(sortedJetIdx[j]) ,  (1+jecUncertainty[sortedJetIdx[j]])* rescale*jetMassAK8->at(sortedJetIdx[j]));
 
 	 fjInputs.push_back(fastjet::PseudoJet(tempJet.Px(),tempJet.Py(),tempJet.Pz(),tempJet.E()));
 	 fjInputs_shift.push_back(fastjet::PseudoJet(tempJet_shift.Px(),tempJet_shift.Py(),tempJet_shift.Pz(),tempJet_shift.E()));
@@ -693,14 +587,10 @@ void analysisClass::Loop()
        fillVariableWithValue( "etaAK8_j1", AK8jets[0].Eta());
        fillVariableWithValue( "phiAK8_j1", AK8jets[0].Phi());
        
-       //fillVariableWithValue( "jetPtAK8matchCaloJet_j1", jetPtAK8matchCaloJet->at(sortedJetIdx[0]));
-       
        fillVariableWithValue( "jetJecAK8_j1", jecFactors[sortedJetIdx[0]] );
        fillVariableWithValue( "jetJecUncAK8_j1", jecUncertainty[sortedJetIdx[0]] );
        
        //fillVariableWithValue( "jetCSVAK8_j1", jetCSVAK8->at(sortedJetIdx[0]) );
-       //fillVariableWithValue("jetHflavour_j1",hFlavourAK8->at(sortedJetIdx[0]));
-
        //jetID
        fillVariableWithValue( "neutrHadEnFrac_j1", jetNhfAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "chargedHadEnFrac_j1", jetChfAK8->at(sortedJetIdx[0]));
@@ -714,12 +604,6 @@ void analysisClass::Loop()
        fillVariableWithValue( "photonMult_j1", phoMultAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "pFlavourAK8_j1",pFlavourAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "hFlavourAK8_j1",hFlavourAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParTProbbAK8_j1",jetParTProbbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParTProbbbAK8_j1",jetParTProbbbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParTProbcAK8_j1",jetParTProbcAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParTProbudsAK8_j1",jetParTProbudsAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParTProbgAK8_j1",jetParTProbgAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParTProblepbAK8_j1",jetParTProblepbAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "jetUParTProbbAK8_j1",jetUParTProbbAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "jetUParTProbbbAK8_j1",jetUParTProbbbAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "jetUParTProbcAK8_j1",jetUParTProbcAK8->at(sortedJetIdx[0]));
@@ -728,32 +612,26 @@ void analysisClass::Loop()
        fillVariableWithValue( "jetUParTProbsAK8_j1",jetUParTProbsAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "jetUParTProbgAK8_j1",jetUParTProbgAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "jetUParTProblepbAK8_j1",jetUParTProblepbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetUParTV1ProbbAK8_j1",jetUParTV1ProbbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetUParTV1ProbbbAK8_j1",jetUParTV1ProbbbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetUParTV1ProbcAK8_j1",jetUParTV1ProbcAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetUParTV1ProbuAK8_j1",jetUParTV1ProbuAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetUParTV1ProbdAK8_j1",jetUParTV1ProbdAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetUParTV1ProbsAK8_j1",jetUParTV1ProbsAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetUParTV1ProbgAK8_j1",jetUParTV1ProbgAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetUParTV1ProblepbAK8_j1",jetUParTV1ProblepbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParticleNetProbbAK8_j1",jetParticleNetProbbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParticleNetProbcAK8_j1",jetParticleNetProbcAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParticleNetProbudsAK8_j1",jetParticleNetProbudsAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParticleNetProbgAK8_j1",jetParticleNetProbgAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbbAK8_j1",jetParticleNetFromMiniAODAK4PuppiCentralProbbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbcAK8_j1",jetParticleNetFromMiniAODAK4PuppiCentralProbcAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbudsAK8_j1",jetParticleNetFromMiniAODAK4PuppiCentralProbudsAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbgAK8_j1",jetParticleNetFromMiniAODAK4PuppiCentralProbgAK8->at(sortedJetIdx[0]));
+
+       fillVariableWithValue( "jetDeepFlavourProbbAK8_j1",jetDeepFlavourProbbAK8->at(sortedJetIdx[0]));
+       fillVariableWithValue( "jetDeepFlavourProbbbAK8_j1",jetDeepFlavourProbbbAK8->at(sortedJetIdx[0]));
+       fillVariableWithValue( "jetDeepFlavourProbcAK8_j1",jetDeepFlavourProbcAK8->at(sortedJetIdx[0]));
+       fillVariableWithValue( "jetDeepFlavourProbudsAK8_j1",jetDeepFlavourProbudsAK8->at(sortedJetIdx[0]));
+       fillVariableWithValue( "jetDeepFlavourProbgAK8_j1",jetDeepFlavourProbgAK8->at(sortedJetIdx[0]));
+       fillVariableWithValue( "jetDeepFlavourProblepbAK8_j1",jetDeepFlavourProblepbAK8->at(sortedJetIdx[0]));
+
+       
        fillVariableWithValue( "jetDeepCsvProbbAK8_j1",jetDeepCsvProbbAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "jetDeepCsvProbbbAK8_j1",jetDeepCsvProbbbAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "jetDeepCsvProbcAK8_j1",jetDeepCsvProbcAK8->at(sortedJetIdx[0]));
        fillVariableWithValue( "jetDeepCsvProbudsgAK8_j1",jetDeepCsvProbudsgAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetDeepFlavourProbbAK8_j1",jetDeepFlavourProbbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetDeepFlavourProbbbAK8_j1",jetDeepFlavourProbbbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetDeepFlavourProblepbAK8_j1",jetDeepFlavourProblepbAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetDeepFlavourProbcAK8_j1",jetDeepFlavourProbcAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetDeepFlavourProbudsAK8_j1",jetDeepFlavourProbudsAK8->at(sortedJetIdx[0]));
-       fillVariableWithValue( "jetDeepFlavourProbgAK8_j1",jetDeepFlavourProbgAK8->at(sortedJetIdx[0]));
+
+       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbbAK8_j1",jetParticleNetFromMiniAODAK4PuppiCentralProbbAK8->at(sortedJetIdx[0]));
+       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbudsAK8_j1",jetParticleNetFromMiniAODAK4PuppiCentralProbudsAK8->at(sortedJetIdx[0]));
+       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbcAK8_j1",jetParticleNetFromMiniAODAK4PuppiCentralProbcAK8->at(sortedJetIdx[0]));
+       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbgAK8_j1",jetParticleNetFromMiniAODAK4PuppiCentralProbgAK8->at(sortedJetIdx[0]));
+
+       
      }
      if( AK8jets.size() >=2 ){
        fillVariableWithValue( "IdTight_j2",JetID->at(sortedJetIdx[1]));
@@ -763,8 +641,6 @@ void analysisClass::Loop()
        //fillVariableWithValue( "jetPtAK8matchCaloJet_j2", jetPtAK8matchCaloJet->at(sortedJetIdx[1]));
        fillVariableWithValue( "jetJecAK8_j2", jecFactors[sortedJetIdx[1]]); 
        fillVariableWithValue( "jetJecUncAK8_j2", jecUncertainty[sortedJetIdx[1]] );
-       //fillVariableWithValue( "jetCSVAK8_j2", jetCSVAK8->at(sortedJetIdx[1]) );
-       //fillVariableWithValue("jetHflavour_j2",hFlavourAK8->at(sortedJetIdx[1]));
 
        //jetID
        fillVariableWithValue( "neutrHadEnFrac_j2", jetNhfAK8->at(sortedJetIdx[1]));
@@ -779,12 +655,6 @@ void analysisClass::Loop()
        fillVariableWithValue( "photonMult_j2", phoMultAK8->at(sortedJetIdx[1]));
        fillVariableWithValue( "pFlavourAK8_j2",pFlavourAK8->at(sortedJetIdx[1]));
        fillVariableWithValue( "hFlavourAK8_j2",hFlavourAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParTProbbAK8_j2",jetParTProbbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParTProbbbAK8_j2",jetParTProbbbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParTProbcAK8_j2",jetParTProbcAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParTProbudsAK8_j2",jetParTProbudsAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParTProbgAK8_j2",jetParTProbgAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParTProblepbAK8_j2",jetParTProblepbAK8->at(sortedJetIdx[1]));
        fillVariableWithValue( "jetUParTProbbAK8_j2",jetUParTProbbAK8->at(sortedJetIdx[1]));
        fillVariableWithValue( "jetUParTProbbbAK8_j2",jetUParTProbbbAK8->at(sortedJetIdx[1]));
        fillVariableWithValue( "jetUParTProbcAK8_j2",jetUParTProbcAK8->at(sortedJetIdx[1]));
@@ -793,32 +663,24 @@ void analysisClass::Loop()
        fillVariableWithValue( "jetUParTProbsAK8_j2",jetUParTProbsAK8->at(sortedJetIdx[1]));
        fillVariableWithValue( "jetUParTProbgAK8_j2",jetUParTProbgAK8->at(sortedJetIdx[1]));
        fillVariableWithValue( "jetUParTProblepbAK8_j2",jetUParTProblepbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetUParTV1ProbbAK8_j2",jetUParTV1ProbbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetUParTV1ProbbbAK8_j2",jetUParTV1ProbbbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetUParTV1ProbcAK8_j2",jetUParTV1ProbcAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetUParTV1ProbuAK8_j2",jetUParTV1ProbuAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetUParTV1ProbdAK8_j2",jetUParTV1ProbdAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetUParTV1ProbsAK8_j2",jetUParTV1ProbsAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetUParTV1ProbgAK8_j2",jetUParTV1ProbgAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetUParTV1ProblepbAK8_j2",jetUParTProblepbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParticleNetProbbAK8_j2",jetParticleNetProbbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParticleNetProbcAK8_j2",jetParticleNetProbcAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParticleNetProbudsAK8_j2",jetParticleNetProbudsAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParticleNetProbgAK8_j2",jetParticleNetProbgAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbbAK8_j2",jetParticleNetFromMiniAODAK4PuppiCentralProbbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbcAK8_j2",jetParticleNetFromMiniAODAK4PuppiCentralProbcAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbudsAK8_j2",jetParticleNetFromMiniAODAK4PuppiCentralProbudsAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbgAK8_j2",jetParticleNetFromMiniAODAK4PuppiCentralProbgAK8->at(sortedJetIdx[1]));
+
+       fillVariableWithValue( "jetDeepFlavourProbbAK8_j2",jetDeepFlavourProbbAK8->at(sortedJetIdx[1]));
+       fillVariableWithValue( "jetDeepFlavourProbbbAK8_j2",jetDeepFlavourProbbbAK8->at(sortedJetIdx[1]));
+       fillVariableWithValue( "jetDeepFlavourProbcAK8_j2",jetDeepFlavourProbcAK8->at(sortedJetIdx[1]));
+       fillVariableWithValue( "jetDeepFlavourProbudsAK8_j2",jetDeepFlavourProbudsAK8->at(sortedJetIdx[1]));
+       fillVariableWithValue( "jetDeepFlavourProbgAK8_j2",jetDeepFlavourProbgAK8->at(sortedJetIdx[1]));
+       fillVariableWithValue( "jetDeepFlavourProblepbAK8_j2",jetDeepFlavourProblepbAK8->at(sortedJetIdx[1]));
+
        fillVariableWithValue( "jetDeepCsvProbbAK8_j2",jetDeepCsvProbbAK8->at(sortedJetIdx[1]));
        fillVariableWithValue( "jetDeepCsvProbbbAK8_j2",jetDeepCsvProbbbAK8->at(sortedJetIdx[1]));
        fillVariableWithValue( "jetDeepCsvProbcAK8_j2",jetDeepCsvProbcAK8->at(sortedJetIdx[1]));
        fillVariableWithValue( "jetDeepCsvProbudsgAK8_j2",jetDeepCsvProbudsgAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetDeepFlavourProbbAK8_j2",jetDeepFlavourProbbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetDeepFlavourProbbbAK8_j2",jetDeepFlavourProbbbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetDeepFlavourProblepbAK8_j2",jetDeepFlavourProblepbAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetDeepFlavourProbcAK8_j2",jetDeepFlavourProbcAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetDeepFlavourProbudsAK8_j2",jetDeepFlavourProbudsAK8->at(sortedJetIdx[1]));
-       fillVariableWithValue( "jetDeepFlavourProbgAK8_j2",jetDeepFlavourProbgAK8->at(sortedJetIdx[1]));
+
+       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbbAK8_j2",jetParticleNetFromMiniAODAK4PuppiCentralProbbAK8->at(sortedJetIdx[1]));
+       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbudsAK8_j2",jetParticleNetFromMiniAODAK4PuppiCentralProbudsAK8->at(sortedJetIdx[1]));
+       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbcAK8_j2",jetParticleNetFromMiniAODAK4PuppiCentralProbcAK8->at(sortedJetIdx[1]));
+       fillVariableWithValue( "jetParticleNetFromMiniAODAK4PuppiCentralProbgAK8_j2",jetParticleNetFromMiniAODAK4PuppiCentralProbgAK8->at(sortedJetIdx[1]));
+
        //dijet
        fillVariableWithValue( "Dijet_MassAK8", MJJAK8) ; //remember that here was AK8
        fillVariableWithValue( "CosThetaStarAK8", TMath::TanH( (AK8jets[0].Eta()-AK8jets[1].Eta())/2 )); 

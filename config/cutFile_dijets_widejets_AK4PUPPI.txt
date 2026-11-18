@@ -256,3 +256,6 @@ jetJecUncAK8_j2         -inf        +inf                -               -       
 CosThetaStarWJ	     -inf           +inf   		-		-		1	200 -1 1  	  SAVE	
 CosThetaStarAK8	     -inf           +inf   		-		-		1	200 -1 1  	  SAVE
 Dijet_MassAK8  	     -inf           +inf                -               -               1       1000 0 10000      SAVE	
+scale_factor_loose         -inf           +inf                -               -               1       100 0 100           SAVE
+scale_factor_medium         -inf           +inf                -               -               1       100 0 100           SAVE
+scale_factor_tight         -inf           +inf                -               -               1       100 0 100           SAVE

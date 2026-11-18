@@ -1,4 +1,5 @@
-import ConfigParser, os
+import configparser as ConfigParser
+import os
 import ROOT as rt
 
 class Config(object):
